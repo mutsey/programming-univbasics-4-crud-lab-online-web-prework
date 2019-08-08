@@ -56,16 +56,17 @@ def retrieve_element_from_index(array, index_number)
 animals =  ["Cat", "dog", "bird"]
  
 animals[1]
-#=> "cat"
+#=> "dog"
  
 famous_cats[0]
-#=> "Cheshire Cat"
+#=> "cat"
  
 famous_cats[2]
-#=> "Garfield"  
+#=> "bird"  
 end
 
 def retrieve_first_element_from_array(array)
+
   
 end
 
