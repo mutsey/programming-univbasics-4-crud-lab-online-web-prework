@@ -20,9 +20,9 @@ end
 
 def add_element_to_start_of_array(array, element)
  
- animals = [cat, dog, bird, hamster] 
+animals = [cat, dog, bird, hamster] 
  
- animals.unshift ("cat")
+animals.unshift ("cat")
  
 p animals
 #=> ["cat", "dog", "bird", "hamster"] 
@@ -67,7 +67,8 @@ end
 
 def retrieve_first_element_from_array(array)
 
-  
+anmals[0]
+#=> cat  
 end
 
 def retrieve_last_element_from_array(array)
