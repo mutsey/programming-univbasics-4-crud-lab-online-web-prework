@@ -5,7 +5,7 @@ end
 
 def create_an_array
 
-animals = [cat, dog, bird, hamster] 
+animals = ["cat", "dog", "bird", "hamster"] 
 end
 
 def add_element_to_end_of_array(array, element)
@@ -83,7 +83,17 @@ end
 
 def update_element_from_index(array, index_number, element)
 
+animals =  ["Cat", "dog", "bird"]
+ 
+animals[1]
+#=> "dog"
+ 
+famous_cats[0]
+#=> "cat"
+ 
+famous_cats[2]
+#=> "bird" 
 
-picnic_ingredients[2] = "Belgian chocolate"
-=> "Belgian chocolate"
+animals[2] = "hamster"
+=> "hamster"
 end
