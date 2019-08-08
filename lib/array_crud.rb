@@ -32,7 +32,7 @@ def remove_element_from_end_of_array(array)
 
 animals = [cat, dog, bird, hamster] 
  
- animals << "hamster"
+hamster =  << "hamster"
  
 p famous_cats
 #=> ["cat", "dog", "bird", "hamster"]  
