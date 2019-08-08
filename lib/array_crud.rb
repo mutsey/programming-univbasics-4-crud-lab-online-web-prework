@@ -29,7 +29,13 @@ p animals
 end
 
 def remove_element_from_end_of_array(array)
-  
+
+animals = [cat, dog, bird, hamster] 
+ 
+ animals << "hamster"
+ 
+p famous_cats
+#=> ["cat", "dog", "bird", "hamster"]  
 end
 
 def remove_element_from_start_of_array(array)
