@@ -72,7 +72,13 @@ anmals[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+
+animals = [cat, dog, bird, hamster] 
+ 
+animals << "hamster"
+ 
+p animals
+#=> ["cat", "dog", "bird", "hamster"]  
 end
 
 def update_element_from_index(array, index_number, element)
