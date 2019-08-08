@@ -37,10 +37,11 @@ hamster = animals.pop
 p animals
 #=> ["cat", "dog", "bird"]
 p hamster
-#=> []
+#=> hamster
 end
 
 def remove_element_from_start_of_array(array)
+
   
 end
 
