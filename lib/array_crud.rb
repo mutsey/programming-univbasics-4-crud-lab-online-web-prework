@@ -1,22 +1,25 @@
 def create_an_empty_array
+
 []  
 end
 
 def create_an_array
- animals = [cat, dog, bird, hamster] 
+
+animals = [cat, dog, bird, hamster] 
 end
 
 def add_element_to_end_of_array(array, element)
 
 animals = [cat, dog, bird, hamster] 
  
- animals << "hamster"
+animals << "hamster"
  
 p animals
 #=> ["cat", "dog", "bird", "hamster"]
 end
 
 def add_element_to_start_of_array(array, element)
+ 
  animals = [cat, dog, bird, hamster] 
  
  animals.unshift ("cat")
