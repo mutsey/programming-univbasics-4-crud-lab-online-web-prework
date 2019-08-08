@@ -83,4 +83,7 @@ end
 
 def update_element_from_index(array, index_number, element)
 
+
+picnic_ingredients[2] = "Belgian chocolate"
+=> "Belgian chocolate"
 end
