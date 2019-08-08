@@ -46,12 +46,13 @@ shift = ["cat", "dog", "bird"]
 cat = animals.shift
  
 p animals
-#=> ["cat","dog"]
-p bird
-#=> bird  
+#=> ["dog","bird"]
+p cat
+#=> cat  
 end
 
 def retrieve_element_from_index(array, index_number)
+
   
 end
 
