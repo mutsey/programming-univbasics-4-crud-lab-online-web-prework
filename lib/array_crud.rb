@@ -34,7 +34,7 @@ animals = [cat, dog, bird, hamster]
  
 hamster = animals.pop 
  
-p famous_cats
+p animals
 #=> ["cat", "dog", "bird", "hamster"]  
 end
 
